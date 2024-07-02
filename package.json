@@ -5,7 +5,7 @@
   "main": "1-intro.js",
   "scripts": {
     "test": "echo \"Error: Testing\" && exit 1",
-    "start": "node app.js",
+    "start": "node --watch app.js",
     "dev": "nodemon app.js"
   },
   "keywords": [],
