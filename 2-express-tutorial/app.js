@@ -8,9 +8,9 @@ const homeImage = readFileSync('./navbar-app/logo.svg')
 const homeLogic = readFileSync('./navbar-app/browser-app.js')
 
 const server = http.createServer((req, res) => {
-  // console.log(req.method)
   console.log(req.method + ": " + req.url)
 
+  // console.log(req.method)
   const url = req.url
   console.log(url)
   // home page
